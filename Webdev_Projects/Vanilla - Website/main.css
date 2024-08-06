@@ -1,0 +1,234 @@
+p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  section {
+    padding: 25px 0 35px;
+    background: #fff;
+  }
+  
+  body { 
+    position: relative; /* we need this for the scrollspy */ 
+    font-size: 14px;
+  }
+  
+  a { color: #3CC; }
+  
+  a:hover { color: #FF0; }
+
+/**/
+  /*SIDE-NAVBAR*/
+
+/*ı want my nav bar to be moveed to the right of the screen and ı want it to be centered of the screen ı also want ıt to be fixed to that postiton*/
+
+
+.side-navbar {
+  position: fixed; /* Fixes the element to a specific position relative to the viewport, so it stays in place even when scrolling */
+  right: 0; /* Positions the element at the right edge of the viewport */
+  text-align: right; /* Aligns the text to the right within the element */
+  top: 50%; /* Positions the element vertically at the middle of the viewport */
+  transform: translateY(-50%); /* Shifts the element up by 50% of its own height, effectively centering it vertically */
+  padding: 5rem 0; /* Adds padding of 5rem (both top and bottom) to the element */
+  z-index: 99999; /* Places the element above other elements with a lower z-index */
+}
+
+/**/
+.side-navbar:hover .nav-link span {
+  color: rgba(0, 0, 0, 0.5);/**/
+  display: block;/**/
+  background-color: #fff;/**/
+  text-align: center;/**/
+  text-transform: uppercase;/**/
+  font-size: 12px;/**/
+  padding: 2px 12px;/**/
+  border-radius: 15px;/**/
+}
+
+
+.side-navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  background: rgba(250, 250, 250, 0.75);
+  width: 10px;
+  height: 10px;
+  right: 20px;
+  top: 50%;
+  border-radius: 5px;
+}
+
+.nav li {
+  position: relative;  /* Allows for absolute positioning within the `li`. */
+  padding-bottom: 10px;
+}
+
+.side-navbar .nav span {
+  display: none;
+
+}
+
+.side-navbar .nav > li a {
+  min-height: 32px;
+  padding: 10px 45px 5px 25px;
+  border-right: none;
+}
+
+
+
+   /*BANNER PAGE*/
+
+   .primary-button a {
+    display: inline-block;
+    background-color: #ff7d27;
+    padding: 15px 24px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+  
+  
+  .parallax-content {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+  }
+  
+  
+  .baner-content {
+    padding-top: 30vh;
+    text-align: center;
+    background-image: url(./assests/background/1st-section.jpg);
+  }
+  
+  .baner-content h1 {
+    margin-top: 0px;
+    font-size: 128px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  
+  .baner-content em {
+    color: #ff7d27;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .baner-content span {
+    display: inline-block;
+    margin-top: -20px;
+    font-weight: 300;
+    font-size: 48px;
+    color: #fff;
+  }
+  
+  .baner-content .primary-button {
+    margin-top: 15px;
+  }
+
+
+
+
+   /*SERVICES PAGE*/
+
+   .service-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15vh;
+    background-image: url(./assests/background/2nd-section.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+    /*PORTFOLIO PAGE*/
+    .projects-content {
+      padding-top: 20vh;
+      background-image: url(./assests/background/3rd-section.jpg);
+    }
+     /*OUR-STORY PAGE*/
+     .tabs-content {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 8vh;
+      background-image: url(./assests/background/4th-section.jpg);
+      background-attachment: fixed;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center center;
+    }
+    
+      /*CONTACT PAGE*/
+
+      .contact-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 16vh;
+        background-image: url(./assests/background/5th-section.jpg);
+      }
+      
+       /*FOOTER PAGE*/
+       footer {
+        text-align: center;
+        background-color: #282b2f;
+        padding: 70px 0px;
+      }
+
+      @media (max-width: 767px){
+  
+        .baner-content {
+          padding-top: 30vh;
+        }
+      
+        .baner-content h1 {
+          font-size: 64px;
+        }
+      
+        .baner-content em {
+        }
+      
+        .baner-content span {
+          font-size: 24px;
+        }
+      
+        .baner-content .primary-button {
+          margin-top: 15px;
+        }
+      
+        .service-content {
+          padding-top: 5vh;
+          text-align: center;
+        }
+      
+        .service-content .left-text .line-dec {
+          width: 45px;
+          height: 3px;
+          background-color: #ff7d27;
+          margin: 20px auto 20px auto;
+        }
+      
+        .service-content .left-text ul {
+          text-align: left;
+        }
+      
+        .service-content .service-item {
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 25px 30px;
+          text-align: center;
+          color: #fff;
+          margin-bottom: 30px;
+        }
+      
+      }
+      
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 1170px;
+        }
+      }

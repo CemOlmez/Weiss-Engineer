@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Electrolyte</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -12,8 +12,8 @@
 <body>
 
     <nav id="home-nav">
-        <div class="nav-logo">
-            <img src="/eletrolyte/İmg/Logo_V22.11 1.png" alt="Logo">
+        <div class="logo">
+            <img src="./img/Logo_V22.11 1.png" alt="Logo">
         </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -23,9 +23,10 @@
         </ul>
         <button class="buy-btn">Buy Now</button>
     </nav>
+    
     <nav id="navbar-toggler">
         <div class="nav-logo">
-            <img src="/eletrolyte/İmg/Logo_V22.11 1.png" alt="Logo">
+            <img src="./img/Logo_V22.11 1.png" alt="Logo">
         </div>
         <div class="toggle-menu">
             <div class="toggle-icon" onclick="toggleMenu()">
@@ -43,28 +44,140 @@
     </nav>
 
     <section id="home">
-        <div class="section_img-container">
-            <img src="/eletrolyte/İmg/Fasting salts box (3D).png" alt="Fasting salts box">
+        <div class="section_text">
+            <h1 class="title">Boost your electrolyte levels and make water fasting <span>x10 easier</span></h1>
+        </div>
+        <div class="section_img_container">
+            <img src="./img/Fasting salts box (3D).png" alt="Fasting salts box" >
         </div>
         <div class="section_text">
-            <h1 class="section_text_h1">Boost your electrolyte levels and make water fasting x10 easier</h1>
-            <p class="section_text_p1">Pure electrolyte salt to rehydrate and restore electrolyte balance
-                Free from sugar, sweeteners, flavoring, gluten, and soy</p>
-            <p class="section_text_p2">Ideal for 24+hour fasts</p>
-            <div>
-                <button class="buy-btn">Buy Now</button>
-                <button class="buy-btn" onclick="location.href='./#connect'">Contact Info</button>
-            </div>
-            <div id="social-contact">
-                <img src="/eletrolyte/İmg/014instagram.png" alt="Instagram contact" class="icon" onclick="location.href='https://www.instagram.com/'">
-                <img src="/eletrolyte/İmg/027whatsapp.png" alt="whatsapp contact" class="icon" onclick="location.href='https://web.whatsapp.com/'">
+            <p class="section_text_p2">Ideal for 24+ hour fasts</p>
+
+            <p class="section_text_p1">Pure electrolyte salt to <b>rehydrate and restore</b> electrolyte balance
+                <br>Free from sugar, sweeteners, flavoring, gluten, and soy</p>
+            
+            <div class="btn-home">
+                <button class="buy-btn" onclick="location.href='./#connect'">Connect With Us</button>
             </div>
         </div>
     </section>
 
 
+    <section id="symptoms">
+        <div class="section_text">
+        <h1 class="title">Symptoms Of Electrolyte Imbalance</h1>
+        </div>
+        <div class=section-container>
+            <div class="section_img_container">
+                <img src="./img/Symptoms image.png" alt="Woman With Headache" class="section-img">
+            </div>
+            <div class="section-details-container">
+                <div class="symptom-container">
+                    <div class="details-container">
+                        <img src="./img/Symptoms list icon.png" alt="Symptoms icon" class="icon">
+                        <ul>
+                            <li>Headaches</li>
+                            <li>Fatigue</li>
+                            <li>Confusion</li>
+                            <li>Dizziness</li>
+                            <li>Mood changes</li>
+                            <li>Vomiting</li>
+                            <li>Loss of appetite</li>
+                            <li>Stomach pain</li>
+                            <li>Regular heartbeat</li>
+                            <li>Numbness</li>
+                            <li>Constipation</li>
+                            <li>Frequent urination</li>
+                            <li>Dry mouth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#benefits'">
+    </section>
 
-    <script src="app.js"></script>
+    <section id="causes">
+        <div class="section_text">
+        <h1 class="title">Common Causes Of Electrolyte Imbalance</h1>
+        </div>
+        <div class=section-container>
+            <div class="section_img_container">
+                <img src="./img/Causes image.png" alt="Workout img" class="section-img">
+            </div>
+            <div class="section-details-container">
+                <div class="causes-container">
+                    <div class="details-container">
+                        <img src="./img/Symptoms list icon.png" alt="Symptoms icon" class="icon">
+                        <h3></h3>
+                        <ul>
+                            <li>Dehydration</li>
+                            <li>Sweating</li>
+                            <li>Fasting</li>
+                            <li>Excessive water consumption</li>
+                            <li>Certain medications</li>
+                            <li>Diarrhea</li>
+                            <li>Vomiting</li>
+                            <li>Severe burns</li>
+                            <li>Heart failure</li>
+                            <li>Eating disorders</li>
+                            <li>Kidney disease</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#benefits'">
+    </section>
+
+    <section id="benefits">
+        <div class="section_text">
+        <h1 class="title">Benefits Of Boosting Electrolyte Levels</h1>
+        </div>
+        <div class=section-container>
+            <div class="section_img_container">
+                <img src="./img/Benefits image.png" alt="water bottle" class="section-img">
+            </div>
+            <div class="section-details-container">
+                <div class="benefits-container">
+                    <div class="details-container">
+                        <img src="./img/Benefits list icon.png" alt="Benefits icon" class="icon">
+                        <ul>
+                            <li>Improve exercise performance</li>
+                            <li>Support nervous system function</li>
+                            <li>Improved rehydration</li>
+                            <li>Improved water retention</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img/arrow.png" alt="Arrow icon" class="icon-arrow" onclick="location.href='./#benefits'">
+    </section>
+    
+    
+    
+    <footer id="connect">
+        <div class="logo">
+            <img src="./img/Logo_V22.11 1.png" alt="">
+        </div>
+        <div class="footer-text">
+            <p>Connect with us to receive updates on the latest products, videos and stories from our community.</p>
+        </div>
+        <div id="social-container">
+            <img src="./img/014instagram.png" alt="Instagram contact" class="icon"
+                onclick="location.href='https://www.instagram.com/'">
+            <img src="./img/027whatsapp.png" alt="whatsapp contact" class="icon"
+                onclick="location.href='https://web.whatsapp.com/'">
+        </div>
+
+        <!-- <div class="lang-select">
+            <p> <a href="">EN</a> / <a href="">TR</a></p>
+        </div> -->
+
+        <p>Copyright &#169; All Rights Reserved.</p>
+    </footer>
+
+
+        <script src="app.js"></script>
 </body>
-
-</html>

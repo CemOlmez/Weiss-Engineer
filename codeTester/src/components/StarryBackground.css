@@ -1,0 +1,30 @@
+.starry-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Set the background color */
+    overflow: hidden;
+  }
+  
+  .starry-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('path/to/star.png'); /* URL to your star image */
+    animation: stars 50s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes stars {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  
