@@ -6,7 +6,10 @@
 # Folders
 _obj
 _test
-_ReadMe
+
+# Ignore the 'dist' folder
+ReadME/
+
 
 # Architecture specific extensions/prefixes
 *.[568vq]
