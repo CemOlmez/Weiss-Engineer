@@ -7,10 +7,10 @@
 _obj
 _test
 
-# Ignore the 'dist' folder
+# Ignore the 'ReadME' folder (case-sensitive)
 ReadME/
 
-
+# Ignore
 # Architecture specific extensions/prefixes
 *.[568vq]
 [568vq].out
@@ -22,7 +22,7 @@ _cgo_gotypes.go
 _cgo_export.*
 
 _testmain.go
-
+# Ignore
 *.exe
 *.test
 *.prof
