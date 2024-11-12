@@ -31,7 +31,7 @@ Designed and developed my first landing page for Weiss Construction using HTML a
 
 ### Screenshots
 
-!![Screenshot of Weiss Engineer Landing Page](./assets/weiss-landing-page.png)
+!![Screenshot of Weiss Engineer Landing Page](./assets/screenshot/Weiss-landing-page.png)
 
 
 ## My process
@@ -47,4 +47,4 @@ Designed and developed my first landing page for Weiss Construction using HTML a
 ## Author/
 
 - Kryston Schwarze - krystonschwarze.com
-- Figma Design : https://www.figma.com/community/file/788671198471043636/weiss-landing-page
+- Design : [Figma Design Link](https://www.figma.com/community/file/788671198471043636/weiss-landing-page)
