@@ -1,4 +1,4 @@
-# Weiess-Engineer -  Landing Page
+# Weiss-Engineer - Landing Page
 
 
 ## Table of contents
@@ -7,8 +7,8 @@
   - [The challenge](#the-challenge)
   - [Links](#links)
   - [Screenshot](#screenshot)
-- [Development Process](#my-process)
-  - [Technologies Used](#built-with)
+- [Development Process](#development-process)
+  - [Technologies Used](#technologies-used)
 - [Author](#author)
 
 
@@ -25,26 +25,24 @@ Designed and developed my first landing page for Weiss Construction using HTML a
 
 ### Links
 
-- Github repo URL: https://github.com/mercyharbo/Easybank
-- Live Site URL: https://mercyharbo.github.io/Easybank/
+- GitHub Repository:[Weiss-Engineer](https://github.com/CemOlmez/Weiss-Engineer?tab=readme-ov-file) 
+- Live Demo: [Demo on GitHub](https://cemolmez.github.io/Weiss-Engineer/)
 
 
 ### Screenshots
 
-!![Screenshot of Weiss Engineer Landing Page](./assets/screenshot/Weiss-landing-page.png)
+![Screenshot of Weiss Engineer Landing Page](https://i.imgur.com/mKaTVem.jpeg)
 
 
-## My process
+## Development Process
 
-### Built with
+### Technologies Used
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS
+- Tech Stack: HTML5 & CSS
+- Deployment: GitHub
 
 
 ## Author/
 
-- Kryston Schwarze - krystonschwarze.com
+- Author Design: [Kryston Schwarze](https://krystonschwarze.com/)
 - Design : [Figma Design Link](https://www.figma.com/community/file/788671198471043636/weiss-landing-page)
